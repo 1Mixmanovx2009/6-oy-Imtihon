@@ -96,7 +96,7 @@ function SignUp() {
             disabled={isLoading}
           />
           <Link to="/" className="font-inter text-center text-primary-5 mt-[14px] text-xs leading-[24px] font-bold">
-            Sign in
+            Sign i
           </Link>
         </form>
       </div>
