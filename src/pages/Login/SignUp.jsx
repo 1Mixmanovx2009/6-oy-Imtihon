@@ -5,7 +5,7 @@ import Title from "../../component/Title";
 import HeadingTitle from "../../component/Title";
 import toast from "react-hot-toast";
 import LoadingGif from "../../assets/images/loading.gif";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function SignUp() {
   const emailStatusRef = useRef();
@@ -95,6 +95,9 @@ function SignUp() {
             }
             disabled={isLoading}
           />
+          <Link to="/" className="font-inter text-center text-primary-5 mt-[14px] text-xs leading-[24px] font-bold">
+            Sign in
+          </Link>
         </form>
       </div>
     </div>
