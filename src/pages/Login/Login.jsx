@@ -90,10 +90,10 @@ function Login() {
             extraStyle="mt-[14px]"
             title={
               isLoading ? (
-                <img
+                <img width={20} height={20}
                   src={LoadingGif}
                   alt="Loading..."
-                  className="w-5 h-5 mx-auto"
+                  className="w-[20px] h-[20px] mx-auto scale-[2.5]"
                 />
               ) : (
                 "Login"
